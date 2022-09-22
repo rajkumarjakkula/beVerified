@@ -11,7 +11,7 @@ export const HomeBox = styled.div`
     width: 300px;
     height: 300px;
     border: 1px solid red;
-    background-color: blue;
+    background-color: #00305f;
     text-align: center;
     border-radius: 20px;
     color: white;
