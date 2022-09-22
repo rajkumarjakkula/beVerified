@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Body = styled.div`
   align-items: center;
-  color: white;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
@@ -24,6 +23,7 @@ export const Button = styled.button`
 `;
 
 export const Container = styled.div`
+
   display: flex;
   flex-direction: column;
   height: calc(100vh);
@@ -32,7 +32,6 @@ export const Container = styled.div`
 export const Header = styled.header`
   align-items: center;
   background-color: #282c34;
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
