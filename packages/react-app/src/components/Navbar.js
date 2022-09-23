@@ -10,7 +10,7 @@ import { shortenAddress, useEthers, useLookupAddress } from "@usedapp/core";
 import React, { useEffect, useState } from "react";
 import { Button } from "../components";
 import { useLocation } from 'react-router-dom';
-
+import BeVerified from './../assets/beverified-logo.png';
 
 const Navbar = () => {
 	let location = useLocation();
@@ -53,10 +53,13 @@ const Navbar = () => {
 		);
 	}
 	return (
-		<>
+		<div>
 		{location.pathname !== '/' ? <Nav>
 			{/* <Bars /> */}
 			<NavMenu>
+					<NavLink to='/'>
+						<img style={{width:'250px'}} src={BeVerified} alt="logo"></img>
+					</NavLink>
 				{location.pathname !== "/register" ?
 					<>
 						<NavLink to='/addproduct'>
@@ -73,7 +76,7 @@ const Navbar = () => {
 		</Nav> : null}
 
 
-		</>
+		</div>
 	);
 };
 

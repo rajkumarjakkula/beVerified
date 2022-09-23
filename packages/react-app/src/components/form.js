@@ -18,6 +18,11 @@ export const Button =styled.button`
     width: 100px;
     height: 55px;
 `;
+export const AddMore = styled.span`
+    font-size:16px;
+    font-weight:500;
+    color:  #827EFE;
+`;
 export const Input = styled.input`
         font-size: 20px;
         height: 55px;

@@ -1,19 +1,17 @@
 import React from 'react';
-import { Loader } from './Loader.style';
-import loader from '../../assets/images/spinner-gap.png';
-
+import loader from './../../assets/spinner-gap.png';
 const Loading = () => {
   const loadingStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    minHeight: 'calc(100vh - 68px)',
+    minHeight: 'calc(100vh - 250px)',
     minWidth: '100vh',
   };
   return (
-    <Box sx={loadingStyle}>
-      <Loader src={loader} />
-    </Box>
+    <div style={loadingStyle}>
+      <img className='image' src={loader}/>
+    </div>
   );
 };
 
