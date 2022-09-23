@@ -8,9 +8,17 @@ const AddProduct = () => {
     return (
         
         <Container>
-            <div> <GrAdd size={14}/>&nbsp;<AddMore>Add Multiple</AddMore></div>
+            <div style={{width:'100%',display:'flex',
+                justifyContent:'center',flexDirection:'column',
+                alignItems:'center'}}>
+            <div> 
+            <div style={{width:'400px',textAlign:'right'}}>
+                <GrAdd size={14}/>&nbsp;<AddMore>Add Multiple</AddMore></div>
+            </div>
             <Input type="text" placeholder="Laptop serial number" {...register("LaptopSerialNumber", { required: true })}>
             </Input>
+            </div>
+           
             <Input type="text" placeholder="Ram serial number" {...register("RamSerialNumber", { required: true })}>
             </Input>
             <Input type="text" placeholder="GraphicCard serial number" {...register("RamSeriaGraphicCardSeriallNumber", { required: true })}>

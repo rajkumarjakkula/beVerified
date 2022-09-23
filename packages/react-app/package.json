@@ -16,8 +16,12 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.10",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@ethersproject/contracts": "^5.6.0",
     "@ethersproject/providers": "^5.6.0",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.6",
     "@my-app/contracts": "^1.0.0",
     "@testing-library/dom": "^8.11.3",
     "@testing-library/jest-dom": "^5.16.2",

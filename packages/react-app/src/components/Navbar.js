@@ -65,7 +65,7 @@ const Navbar = () => {
 						<NavLink to='/addproduct'>
 							addproduct
 						</NavLink>
-						<NavLink to='/showproducts'>
+						<NavLink to='/allproductslist'>
 							showproducts
 						</NavLink>
 					</> : null}
